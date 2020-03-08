@@ -2,4 +2,5 @@
     <string name="app_name">PostagemExemplo</string>
     <string name="card_principal_btn_comentar">COMENTAR</string>
     <string name="card_principal_btn_gostei">GOSTEI</string>
+    <string name="aqui_vai_ficar_a_frase">Aqui vai ficar a frase</string>
 </resources>
