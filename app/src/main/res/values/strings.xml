@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PostagemExemplo</string>
+    <string name="card_principal_btn_comentar">COMENTAR</string>
+    <string name="card_principal_btn_gostei">GOSTEI</string>
+</resources>
