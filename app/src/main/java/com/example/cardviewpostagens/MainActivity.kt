@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         recyclerView.adapter = PostagemAdapter(prepararPostagens(),this)
 
-        val layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
+        val layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
 
         recyclerView.layoutManager = layoutManager
     }
