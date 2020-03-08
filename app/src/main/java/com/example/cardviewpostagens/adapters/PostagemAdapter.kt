@@ -2,8 +2,6 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import androidx.core.graphics.drawable.toDrawable
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cardviewpostagens.R
 import kotlinx.android.synthetic.main.postagem_item.view.*
@@ -14,9 +12,7 @@ class PostagemAdapter(private val postagens: List<Postagem>,
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val posta = postagens[position]
-        holder?.let {
-            it.bindView(posta)
-        }
+        holder.bindView(posta)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -34,7 +30,7 @@ class PostagemAdapter(private val postagens: List<Postagem>,
 
             val titulo = itemView.textNomePostagem
             val descricao = itemView.textSubDescricaoPostagem
-            var imagem = itemView.postagemImage
+            val imagem = itemView.postagemImage
 
 
             titulo.text = postagem.tituloPostagem

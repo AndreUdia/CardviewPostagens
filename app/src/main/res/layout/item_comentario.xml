@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/texto_comentario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="3dp"
+        android:drawableStart="@drawable/ic_feedback_cinza_24dp"
+        android:drawablePadding="15dp"
+        android:elevation="6dp"
+        android:outlineProvider="background"
+        android:padding="15dp"
+        android:text="@string/aqui_vai_ficar_a_frase"
+        android:textColor="@color/colorAccent" />
+</LinearLayout>
