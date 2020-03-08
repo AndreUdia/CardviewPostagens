@@ -1,7 +1,7 @@
 package com.example.cardviewpostagens.view
 
 import Comentario
-import ComentariosAdapter
+import com.example.cardviewpostagens.adapters.ComentariosAdapter
 import Postagem
 import PostagemAdapter
 import android.os.Bundle
